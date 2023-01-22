@@ -1,0 +1,38 @@
+""" parameters """
+OUTPUT_FOLDER =  "../data/carla_sim_data/"
+CLASSES_TO_DETECT=["Vehicle"]  # , "Pedestrian"]
+STEPS_BETWEEN_RECORDINGS = 10
+LIDAR_DATA_FORMAT = "bin"
+OCCLUDED_VERTEX_COLOR = (255, 0, 0)
+VISIBLE_VERTEX_COLOR = (0, 255, 0)
+# How many meters the car must drive before a new capture is triggered.
+DISTANCE_SINCE_LAST_RECORDING = 10
+# How many datapoints to record before resetting the scene.
+NUM_RECORDINGS_BEFORE_RESET = 100
+# How many frames to render before resetting the environment
+# For example, the agent may be stuck
+NUM_EMPTY_FRAMES_BEFORE_RESET = 1000
+
+""" CARLA SETTINGS """
+CAMERA_HEIGHT_POS = 1.6
+LIDAR_HEIGHT_POS = CAMERA_HEIGHT_POS
+MIN_BBOX_AREA_IN_PX = 100
+
+
+""" AGENT SETTINGS """
+NUM_VEHICLES = 20
+NUM_PEDESTRIANS = 10
+
+""" RENDERING SETTINGS """
+WINDOW_WIDTH = 1280
+WINDOW_HEIGHT = 720
+MINI_WINDOW_WIDTH = 320
+MINI_WINDOW_HEIGHT = 180
+
+WINDOW_WIDTH_HALF = WINDOW_WIDTH / 2
+WINDOW_HEIGHT_HALF = WINDOW_HEIGHT / 2
+
+MAX_RENDER_DEPTH_IN_METERS = 70  # Meters
+MIN_VISIBLE_VERTICES_FOR_RENDER = 4
+
+VISUALIZE_LIDAR = False
