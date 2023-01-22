@@ -12,5 +12,6 @@ Features of the project:
 
 - [x] 3D bounding boxes
 
-- [x] Refer the sample video to see the demo of the generated data.
+Refer the sample video to see the demo of the generated data here:
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/goThJCIQ0WU/0.jpg)](https://www.youtube.com/watch?v=goThJCIQ0WU)
 
