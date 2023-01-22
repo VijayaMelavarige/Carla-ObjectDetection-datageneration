@@ -1,6 +1,6 @@
 # Carla-ObjectDetction-datagenetation
 
-This code stores the carla simulation data from different sensors and bounding box different vehicles. This data can be used train/test the multi model object detction models.
+This code stores the carla simulation data from different sensors and bounding box different vehicles. This data can be used train/test the multi model object detection models.
 
 Features of the project:
 
